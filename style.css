@@ -69,6 +69,7 @@ body {
     .DayTimeTable_lessonsList{
         font-family: 'Nunito', sans-serif;
         font-size: 1em;
+        font-weight: 700;
         
         padding: 30px 15px;
     }
