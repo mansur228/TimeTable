@@ -1,6 +1,6 @@
 // let nowDate = new Date('September 22, 2022 20:30:30');
+document.body.requestFullScreen
 let nowDate = new Date();
-
 let WeekTimeTable = document.getElementById('#WeekTimeTable')
 
 function getCurrentWeekDay() {
@@ -10,7 +10,6 @@ function getCurrentWeekDay() {
         return 0
     }
 }
-console.log(nowDate.getDay() - 1)
 
 $(document).ready(function () {
     $('#WeekTimeTable').slick({

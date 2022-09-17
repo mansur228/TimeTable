@@ -35,9 +35,8 @@ body {
 .DayTimeTable {
     height: 100vh;
     background-color: #ff00ff;
-    width: 90vw;
-    padding: 5vw 5vh;
-
+    width: 100vw;
+    padding: 10vw 5vh;
 }
 
 .DayTimeTable_lessons {
@@ -58,6 +57,10 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .DayTimeTable {
+        width: 90vw;
+        padding: 5vw 5vh;
+    }
     .DayTimeTable_title {
         font-family: 'Oswald', sans-serif;
         font-size: 1.5em;
