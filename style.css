@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* 
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1;
+    line-height: 2;
+    list-style-type: none;
+}
+
+body {
+    font-size: 18px;
+    max-height: 100vh;
+    height: 100%;
+}
+
+#WeekTimeTable {
+    width: 100%;
+    overflow: hidden;
+}
+
+.DayTimeTable {
+    height: 100vh;
+    background-color: #ff00ff;
+    width: 90vw;
+    padding: 5vw 5vh;
+
+}
+
+.DayTimeTable_lessons {
+    border-top: #000 1px dashed;
+    padding: 4vh 10px;
+    
+}
+
+.DayTimeTable_title {
+    font-size: 4em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.DayTimeTable_lessonsList{
+    padding: 30px 15px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .DayTimeTable_title {
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5em;
+    }
+    
+    .DayTimeTable_lessonsList{
+        font-family: 'Nunito', sans-serif;
+        font-size: 1em;
+        
+        padding: 30px 15px;
+    }
+}
