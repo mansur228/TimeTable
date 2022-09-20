@@ -17,7 +17,7 @@ font-family: 'Roboto Slab', serif;
     padding: 0;
     box-sizing: border-box;
     letter-spacing: 1;
-    line-height: 3;
+    line-height: 2;
     list-style-type: none;
 }
 
@@ -42,7 +42,11 @@ body {
 .DayTimeTable_lessons {
     border-top: #000 1px dashed;
     padding: 4vh 10px;
-    
+}
+.DayTimeTable_lesson {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .DayTimeTable_title {
@@ -54,6 +58,10 @@ body {
     padding: 30px 15px;
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
+}
+
+.DayTimeTable_lessonsTime{
+    font-size: 0.8em;
 }
 
 @media screen and (max-width: 600px) {
